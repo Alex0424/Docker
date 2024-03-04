@@ -12,9 +12,13 @@ https://learn.microsoft.com/en-us/windows/wsl/install
 
 `docker` + `stop`/`remove` + `container_name`
 
-image list: `docker images`
-
 container list: `docker ps`
+
+`docker images`
+
+`docker stats`
+
+`docker run -t -d -p host_port:docker_container_port --name new_container_name image_name`
 
 # Start
 ```
